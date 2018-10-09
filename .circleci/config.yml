@@ -45,7 +45,7 @@ jobs:
       - save_cache:
           paths:
             - ~/.cache/yarn
-            - ./node_modules
+            - projects/angular-bulma/node_modules
           key: v1-library-dependencies-{{ checksum "yarn.lock" }}
 
       # run tests!
