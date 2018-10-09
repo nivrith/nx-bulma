@@ -1,6 +1,20 @@
 {
   "name": "@polyrithm/angular-bulma",
+  "description": "Lightweight UI components for Angular based on Bulma",
+  "author": "Niv M.G. <nivrith@polyrithm.com>",
+  "license": "MIT",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Polyrithm/angular-bulma.git"
+  },
+  "keywords": [
+    "bulma",
+    "angular",
+    "angularjs",
+    "angular-bulma",
+    "components"
+  ],
   "peerDependencies": {
     "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
     "@angular/core": "^6.0.0-rc.0 || ^6.0.0",

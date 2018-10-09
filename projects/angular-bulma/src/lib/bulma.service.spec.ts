@@ -1,6 +1,6 @@
 import { TestBed, inject } from '@angular/core/testing';
 
-import { BulmaService } from './angular-bulma.service';
+import { BulmaService } from './bulma.service';
 
 describe('BulmaService', () => {
   beforeEach(() => {

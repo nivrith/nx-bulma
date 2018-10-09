@@ -1,6 +1,6 @@
 import { CardModule } from './card/card.module';
 import { NgModule } from '@angular/core';
-import { BulmaComponent } from './angular-bulma.component';
+import { BulmaComponent } from './bulma.component';
 
 @NgModule({
   imports: [

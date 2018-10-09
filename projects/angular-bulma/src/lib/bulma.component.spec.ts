@@ -1,6 +1,6 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { BulmaComponent } from './angular-bulma.component';
+import { BulmaComponent } from './bulma.component';
 
 describe('BulmaComponent', () => {
   let component: BulmaComponent;
