@@ -1,0 +1,12 @@
+@import './variables';
+
+@mixin font-family {
+  font-family: $family-serif;
+}
+
+@mixin h2($color) {
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 20px;
+  color: $color;
+}
