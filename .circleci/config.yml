@@ -47,8 +47,6 @@ jobs:
             - ~/.cache/yarn
             - ./node_modules
           key: v1-library-dependencies-{{ checksum "yarn.lock" }}
-      #cd to app root
-      - run: cd ../../
 
       # run tests!
       - run: yarn test
