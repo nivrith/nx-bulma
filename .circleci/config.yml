@@ -22,16 +22,33 @@ jobs:
       # Download and cache dependencies
       - restore_cache:
           keys:
-          - v1-dependencies-{{ checksum "package.json" }}
+          - v1-dependencies-{{ checksum "yarn.lock" }}
           # fallback to using the latest cache if no exact match is found
           - v1-dependencies-
+          #library dependencies
+          - v1-library-dependencies-{{ checksum "yarn.lock" }}
+          # fallback to using the latest cache if no exact match is found
+          - v1-library-dependencies-
 
       - run: yarn install
 
       - save_cache:
           paths:
-            - node_modules
-          key: v1-dependencies-{{ checksum "package.json" }}
+            - ~/.cache/yarn
+            - ./node_modules
+          key: v1-dependencies-{{ checksum "yarn.lock" }}
+
+      - run:
+          name: install-library-dependencies
+          command: cd projects/angular-bulma && yarn install
+
+      - save_cache:
+          paths:
+            - ~/.cache/yarn
+            - ./node_modules
+          key: v1-library-dependencies-{{ checksum "yarn.lock" }}
+      #cd to app root
+      - run: cd ../../
 
       # run tests!
       - run: yarn test
