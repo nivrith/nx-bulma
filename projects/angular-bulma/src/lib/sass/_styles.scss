@@ -1,10 +1,10 @@
 /* bulma SASS */
-@import '~bulma/sass/utilities/initial-variables.sass';
-@import '~bulma/sass/utilities/functions.sass';
+@import '../../../node_modules/bulma/sass/utilities/initial-variables.sass';
+@import '../../../node_modules/bulma/sass/utilities/functions.sass';
 
 /* custom variables */
 @import './variables';
 
 
 /* bulma core */
-@import '~bulma/bulma.sass';
+@import '../../../node_modules/bulma/bulma.sass';
