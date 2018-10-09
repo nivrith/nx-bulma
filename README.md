@@ -1,10 +1,20 @@
+
 # Angular Bulma
 
 [![CircleCI](https://circleci.com/gh/Polyrithm/angular-bulma.svg?style=svg)](https://circleci.com/gh/Polyrithm/angular-bulma)
-
 [![npm version](https://badge.fury.io/js/%40polyrithm%2Fangular-bulma.svg)](https://badge.fury.io/js/%40polyrithm%2Fangular-bulma)
 
+> Angular-Bulma is a lightweight library of responsive UI components for [Angular](https://angular.io/) based on [Bulma](http://bulma.io/) framework and design.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
+
+## Features
+
+* Keep your current Bulma theme / variables easily
+* Very lightweight with none internal dependencies aside from Vue & Bulma
+* Semantic code output
+* Follows Bulma design
+* Focus on usability and performance without *over-animating* stuff
 
 ## Development server
 

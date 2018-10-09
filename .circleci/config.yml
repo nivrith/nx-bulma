@@ -5,6 +5,10 @@
 version: 2
 jobs:
   build:
+    branches:
+      only:
+        - master
+        - /rc-.*/
     docker:
       # specify the version you desire here
       - image: circleci/node:9.11.1-browsers
