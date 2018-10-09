@@ -30,7 +30,7 @@ jobs:
           # fallback to using the latest cache if no exact match is found
           - v1-library-dependencies-
 
-      - run: yarn install
+      - run: yarn
 
       - save_cache:
           paths:
@@ -40,7 +40,7 @@ jobs:
 
       - run:
           name: install-library-dependencies
-          command: cd projects/angular-bulma && yarn install
+          command: cd projects/angular-bulma && yarn install && cd ../../ && yarn test
 
       - save_cache:
           paths:
@@ -49,6 +49,6 @@ jobs:
           key: v1-library-dependencies-{{ checksum "yarn.lock" }}
 
       # run tests!
-      - run: yarn test
+      # - run: yarn test
       #build
       - run: yarn build
