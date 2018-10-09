@@ -1,3 +1,4 @@
+import { SharedModule } from './../../shared/shared.module';
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { CardContentComponent } from './card-content.component';
@@ -8,6 +9,7 @@ describe('CardContentComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
+      imports: [ SharedModule ],
       declarations: [ CardContentComponent ]
     })
     .compileComponents();

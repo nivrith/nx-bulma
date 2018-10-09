@@ -5,7 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build --prod angular-bulma",
-    "test": "ng test --watch=false --browsers ChromeHeadless --no-sandbox",
+    "test": "ng test angular-bulma --watch=false --browsers ChromeHeadless",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
