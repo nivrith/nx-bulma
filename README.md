@@ -2,6 +2,8 @@
 
 [![CircleCI](https://circleci.com/gh/Polyrithm/angular-bulma.svg?style=svg)](https://circleci.com/gh/Polyrithm/angular-bulma)
 
+[![npm version](https://badge.fury.io/js/%40polyrithm%2Fangular-bulma.svg)](https://badge.fury.io/js/%40polyrithm%2Fangular-bulma)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
 ## Development server
