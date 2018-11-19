@@ -17,10 +17,10 @@
       "dom"
     ],
     "paths": {
-      "bulma": [
+      "amgular-bulma": [
         "dist/angular-bulma"
       ],
-      "bulma/*": [
+      "angular-bulma/*": [
         "dist/angular-bulma/*"
       ]
     }

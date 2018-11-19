@@ -1,5 +1,3 @@
-import { BulmaModule } from './../../projects/angular-bulma/src/lib/angular-bulma.module';
-import { BulmaComponent } from './../../projects/angular-bulma/src/lib/angular-bulma.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
