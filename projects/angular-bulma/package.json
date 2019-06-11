@@ -1,12 +1,12 @@
 {
-  "name": "@polyrithm/angular-bulma",
+  "name": "@opendot/nx-bulma",
   "description": "Lightweight UI components for Angular based on Bulma",
-  "author": "Niv M.G. <nivrith@polyrithm.com>",
+  "author": "Niv M.G. <nivrith.mandayam@gmail.com>",
   "license": "MIT",
   "version": "0.0.5",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Polyrithm/angular-bulma.git"
+    "url": "https://github.com/nivrith/nx-bulma.git"
   },
   "keywords": [
     "bulma",
